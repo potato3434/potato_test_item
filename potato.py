@@ -20,7 +20,7 @@ window = tk.Tk()
 
 window.title("potato")
 
-window.geometry('1000x1000')
+window.geometry('250x100')
 
 label = tk.Label(window,text="Become a Potato Simulator")
 label.pack()
@@ -30,5 +30,6 @@ entry.pack()
 
 button = tk.Button(window,text="Become a Potato",command = clickMe)
 button.pack()
+
 
 window.mainloop()
